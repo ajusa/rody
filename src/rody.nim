@@ -1,4 +1,5 @@
 import std/[strutils, xmltree, cookies, strtabs, times, options], mummy, webby
+export mummy, webby
 
 type Halt = ref object of ValueError
 
